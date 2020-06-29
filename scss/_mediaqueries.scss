@@ -1,0 +1,24 @@
+@import './mixin';
+
+@include mobile {
+
+    nav {
+        margin: 0 5%;
+        width: 90%;
+        padding-top: 20px;
+
+        i {
+            font-size: 35px;
+        }
+    }
+
+    .shots {
+        margin: 4em 0;
+        position: relative;
+    }
+
+    .shot img {
+        margin: 10px 0;
+    }
+
+}
