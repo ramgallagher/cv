@@ -49,7 +49,7 @@ nav span {
 
 #preloader h1 {
   text-align: center;
-  padding-top: 45vh;
+  padding-top: 40vh;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   color: white;
@@ -197,6 +197,9 @@ button i {
   }
   .shot img {
     margin: 10px 0;
+  }
+  #preloader h1 {
+    padding-top: 40vh;
   }
 }
 /*# sourceMappingURL=main.css.map */
