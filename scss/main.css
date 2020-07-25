@@ -192,6 +192,11 @@ button i {
 }
 
 .logos {
+  opacity: 0;
+  -webkit-transform: translateY(40px);
+          transform: translateY(40px);
+  -webkit-transition: 0.7s all ease-in-out;
+  transition: 0.7s all ease-in-out;
   max-width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -213,7 +218,7 @@ button i {
 .logos img {
   height: 250px;
   width: 250px;
-  margin: 2em 1.5em;
+  margin: 2.5em 1.5em;
 }
 
 .logos img:hover {
@@ -222,6 +227,12 @@ button i {
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
   cursor: pointer;
+}
+
+.logos-appear {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
 }
 
 .bootstrap img {
@@ -236,6 +247,11 @@ button i {
 }
 
 .contact {
+  opacity: 0;
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+  -webkit-transition: 1s all ease-in-out;
+  transition: 1s all ease-in-out;
   height: 80vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -247,6 +263,12 @@ button i {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.contact-appear {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
 }
 
 @media (max-width: 768px) {

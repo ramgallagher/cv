@@ -25,3 +25,21 @@ function preLoader() {
     document.getElementById('preloader').style.display = "none";
     document.getElementById('welcome').style.display = "block";
 }
+
+function scrollAppear() {
+    var logos = document.querySelector('.logos');
+    var contact = document.querySelector('.contact');
+    var contactPosition = contact.getBoundingClientRect().top;
+    var logosPosition = logos.getBoundingClientRect().top;
+    var screenPosition = window.innerHeight / 1.5;
+
+    if (logosPosition < screenPosition) {
+        logos.classList.add('logos-appear');
+    }
+    if (contactPosition < screenPosition) {
+        contact.classList.add('contact-appear');
+    }
+
+}
+
+window.addEventListener('scroll', scrollAppear);
