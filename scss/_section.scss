@@ -74,3 +74,53 @@ button {
         font-size: 24px;
     }
 }
+
+.skills {
+    margin-top: 2em;
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+    }
+}
+
+.logos {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 7em auto 5em;
+    justify-content: center;
+    max-width: 1000px;
+    align-items: center;
+    box-shadow: 0 0 15px -1px rgba(0, 0, 0, .1);
+    img {
+        height: 250px;
+        width: 250px;
+        margin: 2em 1.5em;
+        &:hover {
+            -webkit-transform: scale(0.97);
+            transform: scale(0.97);
+            -webkit-transition: 0.5s all ease;
+            transition: 0.5s all ease;
+            cursor: pointer;
+        }
+    }
+}
+
+.bootstrap img {
+    width: 220px;
+    height: 220px;
+    margin: 0 3em;
+}
+
+.html img {
+    height: 228px;
+    width: 228px;
+}
+
+.contact {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
